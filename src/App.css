@@ -1,0 +1,25 @@
+.App {
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+select {
+  margin-left: 10px;
+}
+
+.results {
+  margin-top: 30px;
+}
+
+table {
+  text-align: left;
+  width: 100%;
+}
+
+td {
+  padding-right: 15px;
+}
+
+td.url-col {
+  word-break: break-word;
+}

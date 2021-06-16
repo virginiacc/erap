@@ -12,23 +12,25 @@ const Results = ( props ) => {
 	).reverse();
 	if ( vals.length ) {
 		return (
-     	<table className="results">
-     		<thead>
-     			<tr>
-     				<th>Name</th>
-     				<th>Type</th>
-     				<th className="url-col">URL</th>
-     			</tr>
-     		</thead>
-     		<tbody>
-     			{ vals.map( ( item, index ) => (
-		        <ResultsRow item={ item } key={ index }/>
-		      ) ) }
-     		</tbody>
-     	</table>
-	 	  );
+			<div className="results">
+	     	<table>
+	     		<thead>
+	     			<tr>
+	     				<th>Name</th>
+	     				<th>Type</th>
+	     				<th className="url-col">URL</th>
+	     			</tr>
+	     		</thead>
+	     		<tbody>
+	     			{ vals.map( ( item, index ) => (
+			        <ResultsRow item={ item } key={ index }/>
+			      ) ) }
+	     		</tbody>
+	     	</table>
+	    </div>
+	 	);
 	}
-  return (<div>{ 'No results' }</div>)
+  return (<div className="results">No results</div>)
 };
 
 export default Results;

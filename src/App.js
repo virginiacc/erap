@@ -1,24 +1,16 @@
 import './App.css';
 import { useState } from 'react';
-import { useMemo } from 'react';
 import states from "./states.json";
 import granteeStates from "./grantees-states.json";
 import granteeTribes from "./grantees-tribes.json";
 import granteeTerritories from "./grantees-territories.json";
-
 import SelectComponent from "./SelectComponent.js";
 import Results from "./Results.js";
 
 const data = [...granteeStates, ...granteeTribes, ...granteeTerritories];
 
-function filterByState( state, data ) {
-
-}
-
 function App() {
   const [ selectedState, setSelectedState ] = useState( '' );
-  const [ selectedTypeFilter, setTypeFilter ] = useState( '' );
-  const [ selectedType, setSelectedType ] = useState( '' );
 
   return (
     <div className="App">

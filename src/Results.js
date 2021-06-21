@@ -16,8 +16,8 @@ const Results = ( props ) => {
 	     	<table>
 	     		<thead>
 	     			<tr>
+              <th>Type</th>
 	     				<th>Name</th>
-	     				<th>Type</th>
 	     				<th className="url-col">URL</th>
 	     			</tr>
 	     		</thead>

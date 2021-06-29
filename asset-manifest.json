@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/erap/static/css/main.7644e664.chunk.css",
-    "main.js": "/erap/static/js/main.66dc5eab.chunk.js",
-    "main.js.map": "/erap/static/js/main.66dc5eab.chunk.js.map",
+    "main.js": "/erap/static/js/main.fb815d64.chunk.js",
+    "main.js.map": "/erap/static/js/main.fb815d64.chunk.js.map",
     "runtime-main.js": "/erap/static/js/runtime-main.8d245766.js",
     "runtime-main.js.map": "/erap/static/js/runtime-main.8d245766.js.map",
     "static/js/2.ebab4d09.chunk.js": "/erap/static/js/2.ebab4d09.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8d245766.js",
     "static/js/2.ebab4d09.chunk.js",
     "static/css/main.7644e664.chunk.css",
-    "static/js/main.66dc5eab.chunk.js"
+    "static/js/main.fb815d64.chunk.js"
   ]
 }
